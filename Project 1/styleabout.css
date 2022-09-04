@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.home-button{
+    background-color: #00072D;
+    color: #A4A9AD;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.qualifs-button{
+    background-color: #00072D;
+    color: #A4A9AD;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.techport-button{
+    background-color: #00072D;
+    color: #A4A9AD;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.service-button{
+    background-color: #00072D;
+    color: #A4A9AD;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+header{
+    background-color: #A4A9AD;
+    height: 75px;
+    padding-top: 25px;
+}
+
+.tech-port{
+    color: black;
+    font-size: .5cm;
+    padding-bottom: 10px;
+    background-color: #CFC7C7;
+}
+
+.qualis{
+    color: black;
+    font-size: .5cm;
+    padding-bottom: 10px;
+    background-color: #CFC7C7;
+}
