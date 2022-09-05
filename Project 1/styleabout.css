@@ -1,8 +1,3 @@
-*{
-    margin:0;
-    padding:0;
-}
-
 .home-button{
     background-color: #00072D;
     color: #A4A9AD;
@@ -61,16 +56,29 @@ header{
     padding-top: 25px;
 }
 
+h1{
+    color: black;
+    font-size: 1cm;
+    padding-bottom: 10px;
+    background-color: #CFC7C7;
+}
+
+h2{
+    color: black;
+    font-size: 1cm;
+    padding-bottom: 10px;
+    background-color: #CFC7C7;
+}
+
 .tech-port{
     color: black;
-    font-size: .5cm;
     padding-bottom: 10px;
     background-color: #CFC7C7;
 }
 
 .qualis{
     color: black;
-    font-size: .5cm;
     padding-bottom: 10px;
     background-color: #CFC7C7;
 }
+

@@ -1,33 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>Stephen Johnson's Webpage</title> 
+    <title>Stephen Johnson's Webpage</title>
     <link rel="stylesheet" type="text/css" href="styleabout.css">
-    
+
 </head>
 
-<body id="about-and-service">
+<body class="projects-and-qualis">
 <section class="top-buttons">
-    <header role="banner">
-        <a href="index.html"><button class="home-button">Home</button></a>
-        <a href="about.html"><button class="techport-button">Technical Portfolio</button></a>
-        <a href="about.html"><button class="qualifs-button">Qualifications</button></a>
-        <a href="index.html"><button class="service-button">Service Activities</button></a>
-    </header>
+<header role="banner">
+    <a href="index.html"><button class="home-button">Home</button></a>
+    <a href="about.html"><button class="techport-button">Technical Portfolio</button></a>
+    <a href="about.html"><button class="qualifs-button">Qualifications</button></a>
+    <a href="index.html"><button class="service-button">Service Activities</button></a>
+</header>
 </section>
-</body>
 
+<div class="container">
 <section class="main-writing">
-    <div class="tech-port" role="article">
-        <h1>Technical Projects</h1>
-        <p1>These are my projects.</p1>
-    </div>
+<div class="tech-port" role="article">
+    <h1>Technical Projects</h1>
+    <li>Piano Application:</li>
+    <p>As a part of HowdyHack 2021, I built an application meant to help beginner musicians learn chords and music
+    notes more efficiently. The application can play both individual piano notes as well as chords. The piano has a
+    toggle button, which allows the application to play both major and minor chords for the user. The application
+    was built entirely in Python, using the Python Imaging Library, playsound, and tkinter imports to allow for the
+    creation of buttons on the piano and the ability to play sound files attached to the specific buttons.</p>
+    <p>View Project:<a href="https://github.com/Stephen340/Harmonia"> Harmonia Piano Application</a></p>
+
+    <li>Competitive Robot</li>
+    <p>I participated in an independent, non-affiliated robotics group as a part of the FIRST Tech Challenge, and acted
+    as a programmer for the robot. Programs were written in Java and included controlling the robot's movement and
+    speed, controlling a separate crane attached to the robot meant to pick up objects, and controlling an rgb color
+    sensor to detect specific objects for the robot to interact with. The robot had both an automatic movement system
+    to fulfill tasks individually, and a controlled movement system from a driver.</p>
+    <p>View Project:<a href="https://github.com/Stephen340/Robotics"> Broken Axles' Competitive Robot</a></p>
+
+    <li>Assembler and Disassembler</li>
+    <p>This project contains both an assembler and a disassembler for the hack assembly language. The assembler takes
+    hack assembly language instructions and converts them into binary instructions that can be followed by a machine.
+    The disassembler takes binary instructions and converts them into hack assembly instructions. The assembler and
+    disassembler were both built in Python, but upon feeding in a file of the proper language, will convert the .hack
+    file into a .asm file or vice versa.</p>
+    <p>View Project:<a href="https://github.com/Stephen340/Assembler-Disassembler"> Assembler and Disassembler</a></p>
+
+    <li>Method of Least Squares Regression Analysis</li>
+    <p>This project takes in a file containing several lists of information about a graph containing individual points,
+    and performs a regression analysis to determine a solution represented by one or more lines of best fit. The
+    program minimizes the sum of the squares of the residuals, and given a fixed cost for individual lines of best fit
+    and the length of these lines, will determine the lowest cost possible for the given system.</p>
+    <p>View Project:<a href="hhttps://github.com/Stephen340/Least-Squares-Regression"> Method of Least Squares</a></p>
+
+    
+</div>
     <div class="qualis" role="article">
         <h2>Qualifications</h2>
         <p1>These are my qualifications</p1>
     </div>
 </section>
 
+</div>  
+
+</body>
 
 </html>

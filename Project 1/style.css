@@ -1,66 +1,58 @@
-*{
-    margin:0;
-    padding:0;
+body{
+    background-color: #CFC7C7;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(12);
+}
+
+/* Navbar Buttons */
+
+button{
+    background-color: #00072D;
+    color: #A4A9AD;
+    border-radius: 2px;
+    height: 50px;
+    width: clamp(75px, 7.5vw, 10vw);
+    font-size: clamp(5px, 12px, 20px);
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+    vertical-align: top;
 }
 
 .home-button{
-    background-color: #00072D;
-    color: #A4A9AD;
-    border: none;
-    height: 50px;
-    width: 100px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 40px;
-    margin-left: 10px;
-    vertical-align: top;
-}
-
-.qualifs-button{
-    background-color: #00072D;
-    color: #A4A9AD;
-    border: none;
-    height: 50px;
-    width: 100px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 40px;
-    margin-left: 10px;
-    vertical-align: top;
+    position: relative;
 }
 
 .techport-button{
-    background-color: #00072D;
-    color: #A4A9AD;
-    border: none;
-    height: 50px;
-    width: 100px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 40px;
-    margin-left: 10px;
-    vertical-align: top;
+    position: relative;
+    right: 25px;
+}
+
+.qualifs-button{
+    position: relative;
+    right: 50px;
 }
 
 .service-button{
-    background-color: #00072D;
-    color: #A4A9AD;
-    border: none;
-    height: 50px;
-    width: 100px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 40px;
-    margin-left: 10px;
-    vertical-align: top;
+    position: relative;
+    right: 75px;
 }
 
-.check-other{
+.flip-style{
+    position: relative;
+    right: 100px;
+}
+
+/* Footer Button */
+
+.check-other{ 
     background-color: #00072D;
     color: #A4A9AD;
-    border: none;
     height: 100px;
-    width: 150;
+    width: 150px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 40px;
@@ -71,94 +63,99 @@
     padding-right: 15px;
 }
 
+/* Body Styles */
+
+/* Grid */
+
+.header{
+    grid-row: 1;
+    grid-column: span 12;
+    background-color: #A4A9AD;
+    padding-top: 25px;
+    height: 75px;
+    width: 100%;
+}
+
 .title{
-    font-weight: 700;
-    font-size: 2.10cm;
+    font-weight: bold;
+    font-size: clamp(40px, 4vw, 5vw);
     background-color: #3B6064;
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 10px;
+    grid-row: 2;
+    grid-column: span 8;
 }
 
-header{
-    background-color: #A4A9AD;
-    height: 75px;
-    padding-top: 25px;
+.about-me{
+    color: black;
+    background-color: #CFC7C7;
+    grid-row: 3;
+    grid-column: span 8;
+}
+
+.rele-info{
+    color: black;
+    background-color: #CFC7C7;
+    grid-row: 4;
+    grid-column: span 8;
+}
+
+.service{
+    color: black;
+    background-color: #CFC7C7;
+    grid-row: 5;
+    grid-column: span 8;
+}
+
+.personal{
+    padding: 8px;
+    background-color: #2b4648;
+    grid-row: 2;
+    grid-column: span 4;
+}
+
+.clubs-orgs{
+    padding: 10px;
+    background-color: #b6afaf;
+    height: 500px;
+    grid-column: span 4;
+    grid-row: span 3;
+}
+
+h4{
+    color: black;
+    font-size: .49cm;
+    padding-bottom: 10px;
+}
+
+.clubs-orgs ul li {
+    padding-left: 10px;
+    padding-top: 10px;
+    left: 10px;
+    grid-row: span 3;
 }
 
 footer{
     background-color: #A4A9AD;
     height: 125px;
+    width: 100%;
+    grid-row: 6;
+    grid-column: span 12;
     padding-top: 25px;
-    width:100%;
-    padding-right: 600px;
 }
 
-.section-border{
-    padding-right: 220px;
-    position: static;
-}
+/* Formatting */
 
 h1{
     color: black;
     font-size: 1.0cm;
     padding-bottom: 10px;
     background-color: #CFC7C7;
+    grid-column: span 8;
 }
 
-.about-me{
-    color: black;
-    background-color: #CFC7C7;
-}
-
-h2{
-    color: black;
-    font-size: 1.0cm;
-    padding-bottom: 10px;
-    background-color: #CFC7C7;
-}
-
-.rele-info{
-    color: black;
-    background-color: #CFC7C7;
-}
-
-h3{
-    color: black;
-    font-size: 1.0cm;
-    padding-bottom: 10px;
-    background-color: #CFC7C7;
-}
-
-.service{
-    color: black;
-    background-color: #CFC7C7;
-}
-
-.seperate-vertical{
-    margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
-}
-
-.seperate-vertical .personal{
-    padding: 10px;
-    margin-top: 100px;
-    width: 200px;
-    background-color: #2b4648;
-    height: 121px
-}
-
-.seperate-vertical .clubs-orgs{
-    padding: 10px;
-    width: 200px;
-    background-color: #b6afaf;
-    height: 441px;
-}
-
-.clubs-orgs ul li {
-    padding-left: 10px;
-    padding-top: 10px;
-    position: relative;
-    left: 10px;
-}
+p{
+    margin: 0px 10px;
+    grid-column: span 8;
+}  
